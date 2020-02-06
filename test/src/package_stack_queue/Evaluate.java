@@ -10,7 +10,7 @@ public class Evaluate {
         Stack<String> opt=new Stack<>();
         Stack<Double> vals=new Stack<>();
         Stack<?> sd=new Stack<>();
-        
+
         while (!StdIn.isEmpty())
         {
             String s=StdIn.readString();
