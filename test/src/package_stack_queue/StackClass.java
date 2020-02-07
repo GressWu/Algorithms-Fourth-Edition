@@ -11,7 +11,7 @@ public class StackClass {
             st.push(StdIn.readInt());
         }
         for (Integer integer : st) {
-            System.out.println(integer);
+            System.out.println(integer);         //迭代也会按照栈的特性来迭代的
         }
     }
 }
